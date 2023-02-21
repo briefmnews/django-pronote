@@ -1,11 +1,18 @@
 from setuptools import setup
+from os import path
 
 from pronote import __version__
+
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, "README.md"), encoding="utf-8") as f:
+    long_description = f.read()
 
 setup(
     name="django-pronote",
     version=__version__,
     description="Handle CAS login for Pronote (index éducation)",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/briefmnews/django-pronote",
     author="Brief.me",
     author_email="tech@brief.me",
@@ -15,7 +22,6 @@ setup(
     install_requires=[
         "Django>=3.2",
         "djangorestframework>=3",
-        "djangorestframework-xml>=2",
     ],
     classifiers=[
         "Environment :: Web Environment",
