@@ -1,4 +1,10 @@
 # django-pronote
+[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![Django 3.x](https://img.shields.io/badge/django-3.2-blue.svg)](https://docs.djangoproject.com/en/3.2/)
+[![Python CI](https://github.com/briefmnews/django-pronote/actions/workflows/tests.yaml/badge.svg)](https://github.com/briefmnews/django-pronote/actions/workflows/tests.yaml)
+[![codecov](https://codecov.io/gh/briefmnews/django-pronote/branch/main/graph/badge.svg?token=4VYHI0VP2N)](https://codecov.io/gh/briefmnews/django-pronote)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+
 Handle CAS login for Pronote (index éducation)
 
 ## Installation
