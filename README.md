@@ -8,7 +8,12 @@
 Handle CAS login for Pronote (index éducation)
 
 ## Installation
-Install with [pip](https://pypi.org/):
+Install from [PyPI](https://pypi.org/):
+```
+pip install django-pronote
+```
+
+Or, install with [pip](https://pypi.org/project/pip/):
 ```
 pip install -e git://github.com/briefmnews/django-pronote.git@main#egg=pronote
 ```
