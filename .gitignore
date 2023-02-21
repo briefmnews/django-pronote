@@ -2,3 +2,6 @@
 *__pycache__*
 *.egg-info
 .idea
+.pytest_cache
+htmlcov
+.coverage
